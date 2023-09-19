@@ -1,0 +1,24 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "Treinamento para o banco de dados",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Salomão Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.49.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "prettier": "3.0.3"
+  }
+}
