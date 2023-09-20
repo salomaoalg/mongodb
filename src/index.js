@@ -1,1 +1,3 @@
-console.log("TESTE DE AMBIENTE");
+const winston = require('winston');
+
+winston.info('Hello Winston');
